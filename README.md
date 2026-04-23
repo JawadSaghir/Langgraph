@@ -15,6 +15,8 @@ You can extend this graph to orchestrate more complex agentic workflows that can
 1. Install dependencies, along with the [LangGraph CLI](https://langchain-ai.github.io/langgraph/concepts/langgraph_cli/), which will be used to run the server.
 
 ```bash
+uvx --from langgraph-cli@latest --with typing-extensions langgraph new  D:\langraph\langchain-academy\module-1 --template new-langgraph-project-python # to build langgraph template 
+
 cd path/to/your/app
 pip install -e . "langgraph-cli[inmem]"
 ```
